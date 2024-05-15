@@ -1,0 +1,66 @@
+body{
+    font: 1em sans-serif;
+    margin: 200px;
+    padding: 100px;
+font-weight: 700;
+background: rgb(147, 1954, 1995);
+}
+input{
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+    padding: 20px;
+    border: none;
+    background: royalblue;
+font-size: 24px;
+   font-weight: 700;
+}
+.btn-dd{
+    padding: 10px 20px;
+    border-radius: 4px;
+    background: rgb(149, 197, 193);
+    border: none;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+.btn-dd:hover{
+    font-weight: 700;
+    background: rgb(49, 153, 144);
+}
+input::-webkit-inner-spin-button, ::-webkit-outer-spin-button{
+    display: none;
+}
+input:hover{
+    background: wheat;
+    box-shadow: 10px 4px 6px hsl(0, 0%, 0%, 0.6);
+}
+
+form{
+    background: rgba(81, 134, 99, 0.637);
+    padding: 20px 40px;
+    border-radius: 8px 80px;
+    box-shadow: 4px 8px 12px hsl(0, 0%, 0%, 0.851);
+    -webkit-border-radius: 8px 80px;
+    -moz-border-radius: 8px 80px;
+    -ms-border-radius: 8px 80px;
+    -o-border-radius: 8px 80px;
+    width: 400px;
+    border: 2px red dotted;
+}
+#output{
+    
+    color: #ff0303f6;
+    background: rgba(0, 0, 0, 0.788);
+    padding: 7.5px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
